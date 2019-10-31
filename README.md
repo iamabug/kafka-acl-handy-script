@@ -3,7 +3,7 @@ Handy script for managing Kafka ACLs
 
 #Introduction
 
-Scripts in this repo are simply wrappers of kafka-acls.sh.
+Scripts in this repo are simply wrappers of `kafka-acls.sh`.
 
 Scripts and their functions are shown below.
 
@@ -19,6 +19,16 @@ Scripts and their functions are shown below.
 I feel that I should make some improvements about the script names but this is the best I can do because I want them to start with different characters so that Tab can work smoothly. Comments are appreciated.
 
 # Usage
+
+Modify `util.sh` before anything. There are two variables to be modified.
+
+```bash
+# change ACL_SCRIPT to the path of kafka-acls.sh existing on your machine
+ACL_SCRIPT=/usr/hdp/3.1.4.0-315/kafka/bin/kafka-acls.sh
+
+# change ZK_ADDR to actual Zookeeper addresses
+ZK_ADDR=ZK1:2181,ZK2:2181
+```
 
 All scripts except the last one accept two arguments: username and topic. 
 
