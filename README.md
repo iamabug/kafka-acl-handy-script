@@ -1,7 +1,7 @@
 # kafka-acl-handy-script
 Handy script for managing Kafka ACLs
 
-#Introduction
+# Introduction
 
 Scripts in this repo are simply wrappers of `kafka-acls.sh`.
 
