@@ -8,7 +8,7 @@ ACL_SCRIPT=/usr/hdp/3.1.4.0-315/kafka/bin/kafka-acls.sh
 
 # Zookeeper address
 # format: <ip address>:<port>,<ip address>:<port,...
-ZK_ADDR=fuxi-luoge-163:2181,fuxi-luoge-164:2181
+ZK_ADDR=ZK1:2181,ZK2:2181
 
 
 function usage() {
