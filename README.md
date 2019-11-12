@@ -46,7 +46,7 @@ Example usages:
    ./trans_producer_add.sh bob topic2
    ```
 
-3. add user 'eva' as a consumer and producer of topics prefixed with 'topic3_'
+3. add user 'eva' as a consumer and transacational producer of topics prefixed with 'topic3_'
 
    ```bash
    ./whole_pack_add.sh eva topic3_*
